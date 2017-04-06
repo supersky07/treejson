@@ -1,24 +1,30 @@
 {
-  "name": "treejson",
-  "version": "0.0.1",
-  "description": "generate tree json",
-  "main": "./index.js",
-  "keywords": [
-    "tree",
-    "json",
-    "markdown",
-    "mind-manager"
-  ],
-  "scripts": {},
-  "bin": {
-    "treejson": "bin/cmd.js"
-  },
-  "author": "supersky07 <supersky07@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "latest"
-  },
-  "directories": {
-    "example": "example"
-  }
+    "name": "treejson",
+    "version": "0.0.2",
+    "description": "generate tree json",
+    "main": "./index.js",
+    "keywords": [
+        "tree",
+        "json",
+        "markdown",
+        "mind-manager"
+    ],
+    "scripts": {},
+    "bin": {
+        "treejson": "bin/cmd.js"
+    },
+    "author": "supersky07 <supersky07@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/supersky07/treejson.git"
+    },
+    "dependencies": {
+        "commander": "latest"
+    },
+    "directories": {
+        "example": "example"
+    }
 }
+
+
