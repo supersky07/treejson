@@ -103,7 +103,7 @@ function calc_tree_index(last_len, now_len) {
 		});
 	} else {
 		var slice_count = last_len - now_len;
-		tree_index = tree_index.substring(0, last_len - slice_count);
+		tree_index = tree_index.substring(0, tree_index.length - slice_count);
 		tree_index = tree_index.replace(/(\d)$/, function(a) {
 			return parseInt(a) + 1;
 		});
